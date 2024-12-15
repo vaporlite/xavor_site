@@ -45,7 +45,7 @@ nav .logo a {
 }
 
 nav .logo a:hover {
-    color: #f4a261;
+    color: #8e44ad;
 }
 
 nav .logo a:hover .logo-icon {
@@ -228,7 +228,7 @@ body.loaded .hero-buttons {
     }
 
     .hero {
-        height: auto;
+        height: 100vh; /* Ensure it covers the full height */
         padding: 50px 20px;
     }
 }
@@ -247,5 +247,10 @@ body.loaded .hero-buttons {
     .btn {
         padding: 12px 25px;
         font-size: 18px;
+    }
+
+    .hero {
+        height: 100vh; /* Ensure it covers the full height */
+        padding: 50px 10px; /* Add some padding for better look */
     }
 }
