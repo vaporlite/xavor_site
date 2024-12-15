@@ -192,3 +192,60 @@ body.loaded .hero-buttons {
     transform: scale(1);  /* Return to normal scale */
     opacity: 1;  /* Make visible */
 }
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    nav {
+        padding: 0 20px;
+    }
+
+    nav .logo a {
+        font-size: 24px;
+    }
+
+    .hero h1 {
+        font-size: 48px;
+    }
+
+    .hero-description {
+        font-size: 20px;
+        margin-bottom: 40px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .btn {
+        padding: 15px 30px;
+        font-size: 20px;
+    }
+
+    /* Mobile header animations */
+    header {
+        padding: 15px 0;
+    }
+
+    .hero {
+        height: auto;
+        padding: 50px 20px;
+    }
+}
+
+/* Extra small devices */
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 36px;
+    }
+
+    .hero-description {
+        font-size: 18px;
+        margin-bottom: 30px;
+    }
+
+    .btn {
+        padding: 12px 25px;
+        font-size: 18px;
+    }
+}
